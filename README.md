@@ -1,0 +1,1 @@
+# VecMatKron-Symmetric
