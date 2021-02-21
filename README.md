@@ -14,7 +14,7 @@ This repository includes the following MATLAB script functions:
 
 4- Symmetric vectorization operator of a symmetric matrix S: svec.m 
 
-3- Symmetric matricization operator of a n(n+3)/2-dimensional vector v: smat(s).m 
+3- Symmetric matricization operator of a n(n+1)/2-dimensional vector v: smat(s).m 
 
 2- The commutation matrix: Kgen.m 
 
