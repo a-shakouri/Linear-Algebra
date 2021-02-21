@@ -1,24 +1,24 @@
-# VecMatKron-Symmetric 
+# Linear Algebra
 
-Vectorization (Vec), matricization (Mat), and Kronecker product (Kron) for symmetric matrices.
+In this repository, I upload some MATLAB codes and Simulink models related to stuffs in linear algebra. 
 
 ## File(s)
 
 This repository includes the following MATLAB script functions: 
 
-1- Symmetric Kronecker product between two matrices A and B: C=skron(A,B). 
+7- Stirling numbers/matrix of the first kind: stirling1.m
 
-2- Symmetric vectorization operator of a symmetric matrix S: s=svec(S). 
+6- Stirling numbers/matrix of the second kind: stirling2.m
 
-3- Symmetric matricization operator of a n(n+3)/2-dimensional vector v: S=smat(s). 
+5- Symmetric Kronecker product between two matrices A and B: skron.m 
 
-4- The commutation matrix: Kgen(n,m). 
+4- Symmetric vectorization operator of a symmetric matrix S: svec.m 
 
-5- The Q matrix needed for symmetric operations: Qgen(n). 
+3- Symmetric matricization operator of a n(n+3)/2-dimensional vector v: smat(s).m 
 
-## Reference(s)
+2- The commutation matrix: Kgen.m 
 
-The codes of function "Qgen.m" are derived from a [comment](https://www.mathworks.com/matlabcentral/answers/361452-symmetric-kronecker-product-in-matlab#answer_286112) by David Goodmanson on 17 Oct 2017. 
+1- The Q matrix needed for symmetric operations: Qgen.m 
 
 ## License(s)
 
